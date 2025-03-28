@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenTree00 - Project Showcase</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/styles.css') }}">
+</head>
+<body>
+    <header>
+        GreenTree00 - Project Showcase
+    </header>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="https://github.com/GreenTree00?tab=repositories">Projects</a>
+        <a href="https://github.com/GreenTree00">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>Welcome to my portfolio! I am GreenTree00, a passionate developer specializing in full-stack web development, backend engineering, and mobile applications. With experience in React, Express, PostgreSQL, Python, and more, I love building scalable and efficient solutions.</p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h2>WaveWealth</h2>
+                <p>A React frontend budget tracking application for managing expenses and income.</p>
+                <a href="https://github.com/GreenTree00/WealthWave">View Project</a>
+            </div>
+            <div class="project">
+                <h2>WealthWave-backend</h2>
+                <p>An Express-based backend for WaveWealth, powered by PostgreSQL.</p>
+                <a href="https://github.com/GreenTree00/WealthWave-Backend">View Project</a>
+            </div>
+            <div class="project">
+                <h2>Morse Code Converter</h2>
+                <p>Python scripting that takes terminal based string and converts it into morse code.</p>
+                <a href="https://github.com/GreenTree00/Morse_Code_Converter">View Project</a>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <p>Interested in collaborating or learning more about my work? Feel free to reach out!</p>
+            <p>GitHub: <a href="https://github.com/GreenTree00">github.com/GreenTree00</a></p>
+        </section>
+    </div>
+</body>
+</html>
